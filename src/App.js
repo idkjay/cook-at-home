@@ -12,6 +12,7 @@ const App = () => {
 
   useEffect(() => {
     getRecipes();
+    // eslint-disable-next-line
   }, [query]);
 
   const getRecipes = async () => {
@@ -33,6 +34,8 @@ const App = () => {
 
   return(
     <div className="App">
+      <h1 className = "tag"> Cook at home
+      while you stay at home! </h1>
       <form onSubmit={getSearch} className="search-form">
         <input 
           className="search-bar" 
@@ -45,6 +48,7 @@ const App = () => {
           Search
         </button>
       </form>
+      
       <div className="recipes">
         {recipes.map(recipe =>(
           <Recipe 

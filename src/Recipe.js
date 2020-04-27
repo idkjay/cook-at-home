@@ -5,8 +5,9 @@ const Recipe = ({title, calories, image, ingredients}) => {
     return(
         <div className={style.recipe}>
             <h1>{title}</h1>
-            <p>{calories}</p>
+            <p>Total Calories: {calories.toFixed(2)}</p>
             <img className={style.image} src={image} alt="" />
+
             <ol>
                 {ingredients.map(ingredient => (
                     <li>{ingredient.text}</li>
