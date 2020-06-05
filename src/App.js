@@ -12,7 +12,6 @@ const App = () => {
 
   useEffect(() => {
     getRecipes();
-    // eslint-disable-next-line
   }, [query]);
 
   const getRecipes = async () => {
@@ -57,6 +56,7 @@ const App = () => {
             calories={recipe.recipe.calories}
             image={recipe.recipe.image}
             ingredients={recipe.recipe.ingredients}
+            
           />
         ))}
       </div>
