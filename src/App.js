@@ -12,6 +12,7 @@ const App = () => {
 
   useEffect(() => {
     getRecipes();
+    // eslint-disable-next-line
   }, [query]);
 
   const getRecipes = async () => {
