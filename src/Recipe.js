@@ -13,7 +13,7 @@ const Recipe = ({ recipe }) => {
             </a>
 
             <p>Total Calories: {calories.toFixed(2)}</p>
-            <img className={image} src={image} alt="" />
+            <img className={style.image} src={image} alt="" />
 
             <button onClick={() => setShow(!show)}>Ingredients</button>
             {show && <RecipeDetails ingredients={ingredients} />}

@@ -10,17 +10,17 @@ const App = () => {
   const [search, setSearch] = useState('');
   const [query, setQuery] = useState('chicken');
 
-  useEffect(() => {
-    getRecipes();
-    // eslint-disable-next-line
-  }, [query]);
+  // useEffect(() => {
+  //   getRecipes();
+  //   // eslint-disable-next-line
+  // }, [query]);
 
-  const getRecipes = async () => {
-    const response = await fetch(`https://api.edamam.com/search?q=${query}&app_id=${APP_ID}&app_key=${APP_KEY}`);
-    const data = await response.json();
-    setRecipes(data.hits);
-    console.log(data.hits);
-  };
+  // const getRecipes = async () => {
+  //   const response = await fetch(`https://api.edamam.com/search?q=${query}&app_id=${APP_ID}&app_key=${APP_KEY}`);
+  //   const data = await response.json();
+  //   setRecipes(data.hits);
+  //   console.log(data.hits);
+  // };
 
   const updateSearch = (event) => {
     setSearch(event.target.value);
@@ -34,8 +34,8 @@ const App = () => {
 
   return(
     <div className="App">
-      <h1 className = "tag"> Cook at home
-      while you stay at home! </h1>
+      <h1 className = "tag"> Cook at home </h1>
+      <h2>asdf</h2>
       <form onSubmit={getSearch} className="search-form">
         <input 
           className="search-bar" 
