@@ -42,7 +42,7 @@ const App = () => {
           type="text"
           value={search}
           onChange={updateSearch}
-          placeholder="enter ingredients here"
+          placeholder="Enter Available Ingredients Here"
         />
         <button className="search-button" type="submit">
           Search
@@ -52,12 +52,7 @@ const App = () => {
       <div className="recipes">
         {recipes.map(recipe =>(
           <Recipe 
-            key={recipe.recipe.label}
-            title={recipe.recipe.label}
-            calories={recipe.recipe.calories}
-            image={recipe.recipe.image}
-            ingredients={recipe.recipe.ingredients}
-            
+            recipe={recipe}     
           />
         ))}
       </div>

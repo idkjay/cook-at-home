@@ -3,9 +3,9 @@ import React from 'react';
 const RecipeDetails =({ ingredients }) => {
     return ingredients.map(ingredient => {
         return (
-            <ol>
+            <ul>
                 <li>{ingredient.text}</li>
-            </ol>
+            </ul>
         )
     })
 }
