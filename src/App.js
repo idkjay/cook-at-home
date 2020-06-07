@@ -32,28 +32,29 @@ const App = () => {
     setSearch('');
   };
 
-  return(
+  return (
     <div className="App">
-      <h1 className = "tag"> Cook at home </h1>
-      <h2>asdf</h2>
-      <form onSubmit={getSearch} className="search-form">
-        <input 
-          className="search-bar" 
-          type="text"
-          value={search}
-          onChange={updateSearch}
-          placeholder="Enter Available Ingredients Here"
-        />
-        <button className="search-button" type="submit">
-          Search
-        </button>
-      </form>
-      
-      <div className="recipes">
-        {recipes.map(recipe =>(
-          <Recipe 
-            recipe={recipe}     
+      <h1 className="tag"> Cook at home </h1>
+      <div className="form-holder">
+
+        <form onSubmit={getSearch} className="search-form">
+          <input
+            className="search-bar"
+            type="text"
+            value={search}
+            onChange={updateSearch}
+            placeholder="Enter Available Ingredients Here"
           />
+          <button className="search-button" type="submit">
+            Search
+          </button>
+        </form>
+      </div>
+
+
+      <div className="recipes">
+        {recipes.map((recipe) => (
+          <Recipe recipe={recipe} />
         ))}
       </div>
     </div>

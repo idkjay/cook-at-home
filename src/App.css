@@ -14,21 +14,25 @@
   text-shadow: 0 0.2rem 5rem rgb(119, 115, 115);
   text-transform: uppercase;
 }
-/* h1 {
+
+h1 {
   font-size: 8rem;
   letter-spacing: 0.1rem;
   font-style: italic;
-  color: #40b48e;
-  text-shadow: 0 0.2rem 5rem rgb(119, 115, 115);
+  color: #d50032;
   text-transform: uppercase;
   margin: 4rem 0;
-} */
+}
+
 .search-form{
   min-height: 10vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url("https://www.bakingbusiness.com/ext/resources/2019/1/01142019/Ingredients2019.jpg?1547588432");
+  height: 10rem;
 }
+
 
 .search-bar {
   width: 50%;
@@ -52,18 +56,4 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-}
-
-.search-form {
-  width: 60rem;
-  height: 10rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* background-color: #d3d3d3; */
-  background-image: url("https://www.bakingbusiness.com/ext/resources/2019/1/01142019/Ingredients2019.jpg?1547588432");
-  border-radius: 10px;
-  margin-bottom: 5rem;
-  box-shadow: 1rem 2rem 5rem #fff;
-  position: relative;
 }
