@@ -63,12 +63,6 @@
   position: relative;
 }
 
-.recipe img {
-  border-radius: 50%;
-  width: 300px;
-  height: 300px;
-}
-
 .recipe h2 {
   background-color: #d50032;
   border-radius: 0.5rem;
@@ -82,4 +76,27 @@
   text-shadow: 0 0.5rem 0.5rem #555;
   color: #fff;
   text-align: center;
+}
+
+.recipe button {
+  background-color: #d50032;
+  border-radius: 0.5rem;
+  padding: 0.3rem 0.5rem;
+  top: 2.5rem;
+  left: 2.5rem;
+  right: 2.5rem;
+  font-size: 1rem;
+  font-weight: 400;
+  text-shadow: 0 0.5rem 0.5rem #555;
+  color: #fff;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.recipe img {
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: 8rem;
 }
