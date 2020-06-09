@@ -9,6 +9,8 @@ const Recipe = ({ recipe }) => {
     //  </a>
 
     // <p>Total Calories: {calories.toFixed(2)}</p>
+
+    
     return(
         <div className="recipe">
             <h2>{label}</h2>
