@@ -96,7 +96,10 @@
 
 .recipe img {
   border-radius: 50%;
-  width: 400px;
-  height: 400px;
+  max-width: 600px;
+  max-height: 600px;
   margin-top: 8rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+
 }
