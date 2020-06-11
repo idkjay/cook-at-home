@@ -3,7 +3,7 @@ import RecipeDetails from './RecipeDetails';
 
 const Recipe = ({ recipe }) => {
     const [ show, setShow ] = useState(false);
-    const { label, image, ingredients } = recipe.recipe;
+    const { label, image, ingredients, url } = recipe.recipe;
 
     //  <a href={url} target="_blank" rel="noopener noreferrer">URL
     //  </a>
@@ -18,6 +18,9 @@ const Recipe = ({ recipe }) => {
 
             <button onClick={() => setShow(!show)}>Ingredients</button>
             {show && <RecipeDetails ingredients={ingredients} />}
+            <form action={url} method="get">
+                <button>Directions</button>
+            </form>
         </div>
     );
 }
