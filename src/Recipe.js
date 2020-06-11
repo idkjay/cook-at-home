@@ -16,11 +16,15 @@ const Recipe = ({ recipe }) => {
             <h2>{label}</h2>
             <img className="image" src={image} alt="" />
 
-            <button onClick={() => setShow(!show)}>Ingredients</button>
-            {show && <RecipeDetails ingredients={ingredients} />}
-            <form action={url} method="get">
-                <button>Directions</button>
-            </form>
+            <div className="btn-holder">
+                <a href={url}>
+                    <button>Directions</button>
+                </a>
+                <button onClick={() => setShow(!show)}>Ingredients</button>
+            </div>
+                {show && <RecipeDetails ingredients={ingredients} />}
+
+
         </div>
     );
 }
