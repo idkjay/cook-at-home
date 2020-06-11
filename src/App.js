@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import Recipe from './Recipe';
 import './App.css';
+import Recipe from './Recipe';
+import Footer from './Footer';
 
 const App = () => {
   const APP_ID = '30cd12a7';
@@ -51,12 +52,13 @@ const App = () => {
         </form>
       </div>
 
-
       <div className="recipes">
         {recipes.map((recipe) => (
           <Recipe recipe={recipe} />
         ))}
       </div>
+
+      <Footer />
     </div>
   );
 };

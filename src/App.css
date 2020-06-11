@@ -11,7 +11,7 @@
   justify-content: space-around;
   align-items: center;
   text-transform: uppercase;
-  color: #d50032;
+  color: #dc3545;
   font-size: 8rem;
   letter-spacing: 1rem;
   text-shadow: 0 0.2rem 0.2rem #555;
@@ -42,7 +42,7 @@
 .search-button {
   padding: 10px 20px;
   border: none;
-  background: #d50032;
+  background: #dc3545;
   color: #fff;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
@@ -69,7 +69,7 @@
 }
 
 .recipe h2 {
-  background-color: #d50032;
+  background-color: #dc3545;
   border-radius: 0.5rem;
   padding: 0.3rem 0.5rem;
   position: absolute;
@@ -78,18 +78,16 @@
   right: 2.5rem;
   font-size: 2.5rem;
   font-weight: 400;
-  text-shadow: 0 0.5rem 0.5rem #555;
   color: #fff;
   text-align: center;
 }
 
 .btn-holder button {
-  background-color: #d50032;
+  background-color: #dc3545;
   border-radius: 0.5rem;
   padding: 0.3rem 0.5rem;
   font-size: 1rem;
   font-weight: 400;
-  text-shadow: 0 0.5rem 0.5rem #555;
   color: #fff;
   margin-bottom: 1.5rem;
   width: 100px;
@@ -128,7 +126,7 @@
 }
 
 .ingredient-weight {
-  color: #d50032;
+  color: #dc3545;
   font-size: .8rem;
   list-style-type: none;
 }
