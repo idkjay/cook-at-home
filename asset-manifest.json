@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/cook-at-home/static/css/main.efad3896.chunk.css",
-    "main.js": "/cook-at-home/static/js/main.0fc3016b.chunk.js",
-    "main.js.map": "/cook-at-home/static/js/main.0fc3016b.chunk.js.map",
+    "main.css": "/cook-at-home/static/css/main.3f245971.chunk.css",
+    "main.js": "/cook-at-home/static/js/main.c5e94c24.chunk.js",
+    "main.js.map": "/cook-at-home/static/js/main.c5e94c24.chunk.js.map",
     "runtime-main.js": "/cook-at-home/static/js/runtime-main.5f6be642.js",
     "runtime-main.js.map": "/cook-at-home/static/js/runtime-main.5f6be642.js.map",
     "static/css/2.829c9cb5.chunk.css": "/cook-at-home/static/css/2.829c9cb5.chunk.css",
     "static/js/2.8448cd81.chunk.js": "/cook-at-home/static/js/2.8448cd81.chunk.js",
     "static/js/2.8448cd81.chunk.js.map": "/cook-at-home/static/js/2.8448cd81.chunk.js.map",
     "index.html": "/cook-at-home/index.html",
-    "precache-manifest.dbbe130b29f8d2ff7b06559e6ab7e27b.js": "/cook-at-home/precache-manifest.dbbe130b29f8d2ff7b06559e6ab7e27b.js",
+    "precache-manifest.2b9b9fbf32d3893a5e8f510769389403.js": "/cook-at-home/precache-manifest.2b9b9fbf32d3893a5e8f510769389403.js",
     "service-worker.js": "/cook-at-home/service-worker.js",
     "static/css/2.829c9cb5.chunk.css.map": "/cook-at-home/static/css/2.829c9cb5.chunk.css.map",
-    "static/css/main.efad3896.chunk.css.map": "/cook-at-home/static/css/main.efad3896.chunk.css.map",
+    "static/css/main.3f245971.chunk.css.map": "/cook-at-home/static/css/main.3f245971.chunk.css.map",
     "static/js/2.8448cd81.chunk.js.LICENSE.txt": "/cook-at-home/static/js/2.8448cd81.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5f6be642.js",
     "static/css/2.829c9cb5.chunk.css",
     "static/js/2.8448cd81.chunk.js",
-    "static/css/main.efad3896.chunk.css",
-    "static/js/main.0fc3016b.chunk.js"
+    "static/css/main.3f245971.chunk.css",
+    "static/js/main.c5e94c24.chunk.js"
   ]
 }
