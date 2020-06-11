@@ -1,10 +1,11 @@
 import React from 'react';
 
-const RecipeInfo =({ dietLabels, healthLabels }) => {
+const RecipeInfo =({ dietLabels, healthLabels, calories }) => {
     return (
         <ul className="ingredient-list">
-            <li className="ingredient-text">{healthLabels}</li>
-            <li className="ingredient-weight">Weight - {dietLabels}</li>
+            <li>Health Labels: {healthLabels}</li>
+            <li>Diet Labels: {dietLabels}</li>
+            <li>Total Calories: {calories}</li>
         </ul>
     )
 

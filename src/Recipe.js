@@ -5,7 +5,7 @@ import RecipeInfo from './RecipeInfo';
 const Recipe = ({ recipe }) => {
     const [ show, setShow ] = useState(false);
     const [ showInfo, setShowInfo ] = useState(false);
-    const { label, image, ingredients, url, dietLabels, healthLabels } = recipe.recipe;
+    const { label, image, ingredients, url, dietLabels, healthLabels, calories } = recipe.recipe;
     
     return(
         <div className="recipe">
@@ -24,6 +24,7 @@ const Recipe = ({ recipe }) => {
                     <RecipeInfo 
                         dietLabels={dietLabels}
                         healthLabels={healthLabels} 
+                        calories={calories}
                     />
                 }
         </div>
