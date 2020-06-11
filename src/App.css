@@ -63,7 +63,7 @@
   justify-content: space-around;
   background: #fff;
   align-items: center;
-  min-width: 50%;
+  min-width: 60%;
   position: relative;
 }
 
@@ -111,10 +111,11 @@
   background-color: #f0f0f0;
   border-radius: 0.5rem;
   padding: 0.5rem;
-  width: 30rem;
-  max-width: 30rem;
+  width: 80%;
+  max-width: 80%;
   margin-left: 3rem;
   margin-right: 3rem;
+  list-style-position: inside;
 }
 
 .ingredient-text {
