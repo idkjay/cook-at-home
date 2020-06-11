@@ -1,10 +1,14 @@
 import React, { useState } from 'react';
 import RecipeDetails from './RecipeDetails';
+import ReactCardFlip from "react-card-flip";
 
 const Recipe = ({ recipe }) => {
-    const [ show, setShow ] = useState(false);
+    const [isFlipped, setIsFlipped] = useState(false);
     const { label, image, ingredients } = recipe.recipe;
 
+    const handleClick = () => {
+        setIsFlipped(!isFlipped)
+    }
     //  <a href={url} target="_blank" rel="noopener noreferrer">URL
     //  </a>
 
@@ -12,13 +16,19 @@ const Recipe = ({ recipe }) => {
 
     
     return(
-        <div className="recipe">
-            <h2>{label}</h2>
-            <img className="image" src={image} alt="" />
+        <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
 
-            <button onClick={() => setShow(!show)}>Ingredients</button>
-            {show && <RecipeDetails ingredients={ingredients} />}
-        </div>
+            <div className="recipe">
+                <h2>{label}</h2>
+                <img className="image" src={image} alt="" />
+                <button onClick={handleClick}>Ingredients</button>
+            </div>
+
+            <div className="recipe">
+                <RecipeDetails className="ingred" ingredients={ingredients}/>
+                <button onClick={handleClick}>Return</button>
+            </div>
+        </ReactCardFlip>
     );
 }
 
