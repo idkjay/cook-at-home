@@ -26,7 +26,7 @@
   height: 11rem;
   box-shadow: 0px 5px 20px rgb(71, 71, 71);
   margin-bottom: 2rem;
-  margin-top: -.7ßrem;
+  margin-top: -.7rem;
   background-attachment: fixed;
 }
 
@@ -80,6 +80,8 @@
   font-weight: 400;
   color: #fff;
   text-align: center;
+  box-shadow: 0px 1px 10px rgb(71, 71, 71);
+
 }
 
 .btn-holder button {
@@ -95,6 +97,8 @@
   margin-right: .5rem;
   margin-left: .5rem;
   border: none;
+  box-shadow: 0px 1px 10px rgb(71, 71, 71);
+
 }
 
 .recipe img {
