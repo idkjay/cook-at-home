@@ -16,7 +16,7 @@ const Recipe = ({ recipe }) => {
                 </a>
                 <button onClick={() => setShow(!show)}>Ingredients</button>
             </div>
-                {show && <RecipeDetails className="list" ingredients={ingredients} />}
+                {show && <RecipeDetails ingredients={ingredients} />}
         </div>
     );
 }
