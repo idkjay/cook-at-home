@@ -3,7 +3,7 @@
   background-color: #fff;
 }
 
-.tag{
+.tag {
   font-family: 'Bebas Neue';
   margin: auto;
   padding: 20px;
@@ -17,7 +17,7 @@
   text-shadow: 0 0.2rem 0.2rem #555;
 }
 
-.search-form{
+.search-form {
   min-height: 10vh;
   display: flex;
   justify-content: center;
@@ -39,7 +39,7 @@
   border-bottom-left-radius: 5px;
 }
 
-.search-button{
+.search-button {
   padding: 10px 20px;
   border: none;
   background: #d50032;
@@ -48,7 +48,7 @@
   border-bottom-right-radius: 5px;
 }
 
-.recipes{
+.recipes {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;

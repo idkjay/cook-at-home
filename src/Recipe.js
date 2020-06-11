@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import RecipeDetails from './RecipeDetails';
+import RecipeInfo from './RecipeInfo';
 
 const Recipe = ({ recipe }) => {
     const [ show, setShow ] = useState(false);
-    const { label, image, ingredients, url } = recipe.recipe;
+    const [ showInfo, setShowInfo ] = useState(false);
+    const { label, image, ingredients, url, dietLabels, healthLabels } = recipe.recipe;
     
     return(
         <div className="recipe">
@@ -15,8 +17,15 @@ const Recipe = ({ recipe }) => {
                     <button>Directions</button>
                 </a>
                 <button onClick={() => setShow(!show)}>Ingredients</button>
+                <button onClick={() => setShowInfo(!showInfo)}>Other Info</button>
             </div>
                 {show && <RecipeDetails ingredients={ingredients} />}
+                {showInfo && 
+                    <RecipeInfo 
+                        dietLabels={dietLabels}
+                        healthLabels={healthLabels} 
+                    />
+                }
         </div>
     );
 }
