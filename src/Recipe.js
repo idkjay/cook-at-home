@@ -4,12 +4,6 @@ import RecipeDetails from './RecipeDetails';
 const Recipe = ({ recipe }) => {
     const [ show, setShow ] = useState(false);
     const { label, image, ingredients, url } = recipe.recipe;
-
-    //  <a href={url} target="_blank" rel="noopener noreferrer">URL
-    //  </a>
-
-    // <p>Total Calories: {calories.toFixed(2)}</p>
-
     
     return(
         <div className="recipe">
@@ -22,9 +16,7 @@ const Recipe = ({ recipe }) => {
                 </a>
                 <button onClick={() => setShow(!show)}>Ingredients</button>
             </div>
-                {show && <RecipeDetails ingredients={ingredients} />}
-
-
+                {show && <RecipeDetails className="list" ingredients={ingredients} />}
         </div>
     );
 }
