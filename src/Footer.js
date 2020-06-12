@@ -17,7 +17,7 @@ const Footer = () => {
                 while you stay at home! This app will help you find recipes
                 based off food and ingredients you already have in your pantry.
               </h4>
-                <a className="creator" href="https://www.linkedin.com/in/jordanchu1995/"><i className="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+                <a className="creator" href="https://www.linkedin.com/in/jordanchu1995/"><i className="fa fa-linkedin-square fa-2x"></i></a>
                 <a class="creator "href="http://jordanchu.xyz"><i class="fa fa-code fa-2x"></i></a>
                 <a class="creator "href="https://github.com/idkjay"><i class="fa fa-github-square fa-2x"></i></a>
             </div>
