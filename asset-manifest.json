@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/cook-at-home/static/css/main.43fe7770.chunk.css",
+    "main.css": "/cook-at-home/static/css/main.ec7d5ae9.chunk.css",
     "main.js": "/cook-at-home/static/js/main.930eba3d.chunk.js",
     "main.js.map": "/cook-at-home/static/js/main.930eba3d.chunk.js.map",
     "runtime-main.js": "/cook-at-home/static/js/runtime-main.5f6be642.js",
@@ -9,17 +9,17 @@
     "static/js/2.8448cd81.chunk.js": "/cook-at-home/static/js/2.8448cd81.chunk.js",
     "static/js/2.8448cd81.chunk.js.map": "/cook-at-home/static/js/2.8448cd81.chunk.js.map",
     "index.html": "/cook-at-home/index.html",
-    "precache-manifest.a4e63a0717eb9beed747d93f6c73257c.js": "/cook-at-home/precache-manifest.a4e63a0717eb9beed747d93f6c73257c.js",
+    "precache-manifest.2b76d30847d24b220e2e09316984ae4c.js": "/cook-at-home/precache-manifest.2b76d30847d24b220e2e09316984ae4c.js",
     "service-worker.js": "/cook-at-home/service-worker.js",
     "static/css/2.829c9cb5.chunk.css.map": "/cook-at-home/static/css/2.829c9cb5.chunk.css.map",
-    "static/css/main.43fe7770.chunk.css.map": "/cook-at-home/static/css/main.43fe7770.chunk.css.map",
+    "static/css/main.ec7d5ae9.chunk.css.map": "/cook-at-home/static/css/main.ec7d5ae9.chunk.css.map",
     "static/js/2.8448cd81.chunk.js.LICENSE.txt": "/cook-at-home/static/js/2.8448cd81.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5f6be642.js",
     "static/css/2.829c9cb5.chunk.css",
     "static/js/2.8448cd81.chunk.js",
-    "static/css/main.43fe7770.chunk.css",
+    "static/css/main.ec7d5ae9.chunk.css",
     "static/js/main.930eba3d.chunk.js"
   ]
 }
