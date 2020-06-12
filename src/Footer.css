@@ -19,6 +19,7 @@ h4 {
 
 .creator:hover, .name:hover {
     color: #000;
+    text-decoration: none;
 }
 
 .name {
