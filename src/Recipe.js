@@ -6,6 +6,16 @@ const Recipe = ({ recipe }) => {
     const [ show, setShow ] = useState(false);
     const [ showInfo, setShowInfo ] = useState(false);
     const { label, image, ingredients, url, dietLabels, healthLabels, calories } = recipe.recipe;
+
+    const showShow = () => {
+        setShow(!show)
+        setShowInfo(false)
+    }
+    
+    const showMoreInfo = () => {
+        setShowInfo(!showInfo)
+        setShow(false)
+    }
     
     return(
         <div className="recipe">
@@ -16,8 +26,8 @@ const Recipe = ({ recipe }) => {
                 <a href={url}>
                     <button>Directions</button>
                 </a>
-                <button onClick={() => setShow(!show)}>Ingredients</button>
-                <button onClick={() => setShowInfo(!showInfo)}>Other Info</button>
+                <button onClick={showShow}>Ingredients</button>
+                <button onClick={showMoreInfo}>More Info</button>
             </div>
                 {show && <RecipeDetails ingredients={ingredients} />}
                 {showInfo && 
