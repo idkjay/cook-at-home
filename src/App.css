@@ -40,13 +40,19 @@
   box-shadow: 0px 0px 10px rgb(71, 71, 71);
 }
 
-.search-button {
+.search-form button {
   padding: 10px 20px;
   border: none;
   background: #dc3545;
   color: #fff;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
+}
+
+.search-form button:hover {
+  background-color: #fff;
+  box-shadow: 0px 1px 10px rgb(71, 71, 71);
+  color: #dc3545;
 }
 
 .recipes {
@@ -82,7 +88,6 @@
   color: #fff;
   text-align: center;
   box-shadow: 0px 1px 10px rgb(71, 71, 71);
-
 }
 
 .btn-holder button {
@@ -99,7 +104,11 @@
   margin-left: .5rem;
   border: none;
   box-shadow: 0px 1px 10px rgb(71, 71, 71);
+}
 
+.btn-holder button:hover {
+  background-color: #fff;
+  color: #dc3545;
 }
 
 .recipe img {
