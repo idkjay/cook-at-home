@@ -17,26 +17,16 @@ const Footer = () => {
                 while you stay at home! This app will help you find recipes
                 based off food and ingredients you already have in your pantry.
               </h4>
-              <ul className="list-unstyled">
-                <li>
-                  <a href="https://www.linkedin.com/in/jordanchu1995/">
-                    Linkedin
-                  </a>
-                </li>
-                <li>
-                  <a href="https://github.com/idkjay">GitHub</a>
-                </li>
-                <li>
-                  <a href="http://jordanchu.xyz/">Portfolio</a>
-                </li>
-              </ul>
+                <a className="creator" href="https://www.linkedin.com/in/jordanchu1995/"><i className="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+                <a class="creator "href="http://jordanchu.xyz"><i class="fa fa-code fa-2x"></i></a>
+                <a class="creator "href="https://github.com/idkjay"><i class="fa fa-github-square fa-2x"></i></a>
             </div>
           </div>
           <hr />
           <div className="row">
             <p className="col-sm">
               &copy;{new Date().getFullYear()}{" "}
-              <a href="http://jordanchu.xyz/">Jordan Chu</a>
+              <a className="name" href="http://jordanchu.xyz/">Jordan Chu</a>
             </p>
           </div>
         </div>
