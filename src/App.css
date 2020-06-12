@@ -17,6 +17,12 @@
   text-shadow: 0 0.2rem 0.2rem #555;
 }
 
+@media only screen and (max-width: 400px) {
+  .tag {
+    text-align: center;
+  }
+}
+
 .search-form {
   min-height: 10vh;
   display: flex;
@@ -132,6 +138,23 @@
   list-style-position: inside;
   text-align: center;
   justify-content: center;
+  margin-bottom: 10px;
+}
+
+.ingredient-list:last-child {
+  margin-bottom: 25px;
+}
+
+.info-list {
+  background-color: #f0f0f0;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  width: 80%;
+  max-width: 80%;
+  list-style-position: inside;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 25px;
 }
 
 .ingredient-text {

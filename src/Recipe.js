@@ -19,7 +19,7 @@ const Recipe = ({ recipe }) => {
     
     return(
         <div className="recipe">
-            <h2>{label}</h2>
+            <h2 className="recipeName">{label}</h2>
             <img className="image" src={image} alt="" />
 
             <div className="btn-holder">
