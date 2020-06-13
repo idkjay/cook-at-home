@@ -30,6 +30,21 @@
   background-attachment: fixed;
 }
 
+.recipe {
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px rgb(71, 71, 71);
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: #fff;
+  align-items: center;
+  min-width: 50%;
+  width: 50%;
+  max-width: 70%;
+  text-align: center;
+}
+
 @media only screen and (max-width: 789px) {
   .tag {
     text-align: center;
@@ -40,9 +55,15 @@
     background-position: center center;
     background-repeat: no-repeat;
   }
+
+  .recipe {
+    min-width: 70%;
+    width: 70%;
+    max-width: 70%;
+  }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
   .tag {
     text-align: center;
   }
@@ -51,6 +72,12 @@
     background-image: url("https://i.imgur.com/D0CtnEt.jpg");
     background-position: center bottom;
     background-repeat: no-repeat;
+  }
+
+  .recipe {
+    min-width: 95%;
+    width: 95%;
+    max-width: 95%;
   }
 }
 
@@ -84,20 +111,6 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-}
-
-.recipe {
-  border-radius: 10px;
-  box-shadow: 0px 5px 20px rgb(71, 71, 71);
-  margin: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  background: #fff;
-  align-items: center;
-  min-width: 60%;
-
-  text-align: center;
 }
 
 .recipe h2 {
@@ -141,22 +154,20 @@
 
 .recipe img {
   border-radius: 100%;
-
   margin-left: 3rem;
   margin-right: 3rem;
   margin-bottom: 1.3rem;
   max-width: 100%;
   height: auto;
   padding: 1rem;
-
 }
 
 .ingredient-list {
   background-color: #f0f0f0;
   border-radius: 0.5rem;
   padding: 0.5rem;
-  width: 80%;
-  max-width: 80%;
+  width: 70%;
+  max-width: 70%;
   list-style-position: inside;
   text-align: center;
   justify-content: center;
@@ -167,19 +178,8 @@
   margin-bottom: 25px;
 }
 
-.info-list {
-  background-color: #f0f0f0;
-  border-radius: 0.5rem;
-  padding: 0.5rem;
-  width: 80%;
-  max-width: 80%;
-  list-style-position: inside;
-  text-align: center;
-  justify-content: center;
-  margin-bottom: 25px;
-}
 
-.ingredient-text {
+.ingredient-text, .info-text {
   font-size: 1rem;
   color: #888;
   list-style-type: none;
@@ -189,4 +189,18 @@
   color: #dc3545;
   font-size: .8rem;
   list-style-type: none;
+}
+
+.info-list {
+  background-color: #f0f0f0;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 70%;
+  max-width: 70%;
+  list-style-position: inside;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 25px;
 }
