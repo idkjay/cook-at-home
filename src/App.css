@@ -96,7 +96,7 @@
   background: #fff;
   align-items: center;
   min-width: 60%;
-  position: relative;
+
   text-align: center;
 }
 
@@ -104,7 +104,9 @@
   background-color: #dc3545;
   border-radius: 0.5rem;
   padding: 0.3rem 0.5rem;
-  position: absolute;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 2rem;
   top: 2.5rem;
   left: 2.5rem;
   right: 2.5rem;
@@ -113,6 +115,7 @@
   color: #fff;
   text-align: center;
   box-shadow: 0px 1px 10px rgb(71, 71, 71);
+  width: 70%;
 }
 
 .btn-holder button {
@@ -138,13 +141,14 @@
 
 .recipe img {
   border-radius: 100%;
-  margin-top: 7rem;
+
   margin-left: 3rem;
   margin-right: 3rem;
   margin-bottom: 1.3rem;
   max-width: 100%;
   height: auto;
   padding: 1rem;
+
 }
 
 .ingredient-list {
