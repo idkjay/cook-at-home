@@ -41,44 +41,8 @@
   align-items: center;
   min-width: 50%;
   width: 50%;
-  max-width: 70%;
+  max-width: 50%;
   text-align: center;
-}
-
-@media only screen and (max-width: 789px) {
-  .tag {
-    text-align: center;
-  }
-  
-  .search-form {
-    background-image: url("https://i.imgur.com/D0CtnEt.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-  }
-
-  .recipe {
-    min-width: 70%;
-    width: 70%;
-    max-width: 70%;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .tag {
-    text-align: center;
-  }
-  
-  .search-form {
-    background-image: url("https://i.imgur.com/D0CtnEt.jpg");
-    background-position: center bottom;
-    background-repeat: no-repeat;
-  }
-
-  .recipe {
-    min-width: 95%;
-    width: 95%;
-    max-width: 95%;
-  }
 }
 
 .search-bar {
@@ -178,7 +142,6 @@
   margin-bottom: 25px;
 }
 
-
 .ingredient-text, .info-text {
   font-size: 1rem;
   color: #888;
@@ -203,4 +166,41 @@
   text-align: center;
   justify-content: center;
   margin-bottom: 25px;
+}
+
+@media only screen and (max-width: 789px) {
+  .tag {
+    text-align: center;
+  }
+
+  .search-form {
+    background-image: url("https://i.imgur.com/D0CtnEt.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+
+  .recipe {
+    min-width: 70%;
+    width: 70%;
+    max-width: 70%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .tag {
+    text-align: center;
+  }
+
+  .search-form {
+    background-image: url("https://i.imgur.com/D0CtnEt.jpg");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+  }
+
+  .recipe {
+    min-width: 95%;
+    width: 95%;
+    max-width: 95%;
+  }
 }
