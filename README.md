@@ -6,10 +6,10 @@
 
 Live Site: http://jordanchu.xyz/cook-at-home/
 
-## Project Screen Shot(s)
-
-Desktop: ![screenshot1](https://i.imgur.com/aeELxG1.png)
-Mobile: ![screenshot1](https://i.imgur.com/vohf0L6.png)
+Desktop: 
+![screenshot1](https://i.imgur.com/aeELxG1.png)
+Mobile: 
+![screenshot1](https://i.imgur.com/vohf0L6.png)
 
 ## Technologies
 
