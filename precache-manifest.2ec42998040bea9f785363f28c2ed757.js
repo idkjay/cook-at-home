@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b53902793e1515c91a8942ba773b931a",
+    "revision": "641b115478169c3dd4448af47a0726db",
     "url": "/cook-at-home/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cook-at-home/static/css/2.829c9cb5.chunk.css"
   },
   {
-    "revision": "4fbdc8e153341ddbe87f",
-    "url": "/cook-at-home/static/css/main.b5fe405c.chunk.css"
+    "revision": "1629db27871b00d3d933",
+    "url": "/cook-at-home/static/css/main.d3b5cbe0.chunk.css"
   },
   {
     "revision": "74de84c2f7071ef5ff42",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cook-at-home/static/js/2.8448cd81.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4fbdc8e153341ddbe87f",
+    "revision": "1629db27871b00d3d933",
     "url": "/cook-at-home/static/js/main.497c03b0.chunk.js"
   },
   {
