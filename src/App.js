@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import './App.css';
-import Recipe from './Recipe';
-import Footer from './Footer';
+import './styles/App.css';
+import Recipe from './components/Recipe';
+import Footer from './components/Footer';
 
 const App = () => {
   const APP_ID = '30cd12a7';

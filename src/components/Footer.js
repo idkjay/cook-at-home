@@ -1,11 +1,7 @@
 import React from 'react';
-import "./Footer.css";
+import '../styles/Footer.css';
 
 const Footer = () => {
-
-    // const github = <FontAwsomeIcon github={fa-github-square} />
-    // const linkedin = <FontAwsomeIcon linkedin={fa-linkedin-square} />
-    // const code = <FontAwsomeIcon code={fa-code} />
 
     return (
       <div className="main-footer">
