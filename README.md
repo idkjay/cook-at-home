@@ -13,7 +13,6 @@ Mobile:
 
 ## Technologies
 
-* Rails 5.2.3
 * React 16.8.0
 * Travis-CI
 * Edamam Recipe Search API
