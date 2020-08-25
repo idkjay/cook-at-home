@@ -4,7 +4,7 @@
 
 #### A mobile friendly recipe app aimed to help you practice social distancing during the COVID19 pandemic, built with React, JavaScript, and CSS. 
 
-Live Site: http://jordanchu.xyz/cook-at-home/
+Live Site: https://idkjay.github.io/cook-at-home/
 
 ![screenshot1](https://i.imgur.com/aeELxG1.png)
 ![screenshot1](https://i.imgur.com/vohf0L6.png)
