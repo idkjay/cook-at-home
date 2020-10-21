@@ -14,7 +14,7 @@ const Footer = () => {
                 based off food and ingredients you already have in your pantry.
               </h4>
                 <a className="creator" href="https://www.linkedin.com/in/jordanchu1995/"><i className="fa fa-linkedin-square fa-2x"></i></a>
-                <a class="creator "href="http://jordanchu.xyz"><i class="fa fa-code fa-2x"></i></a>
+                <a class="creator "href="https://jordanchu.com"><i class="fa fa-code fa-2x"></i></a>
                 <a class="creator "href="https://github.com/idkjay"><i class="fa fa-github-square fa-2x"></i></a>
             </div>
           </div>
@@ -22,7 +22,7 @@ const Footer = () => {
           <div className="row">
             <p className="col-sm">
               &copy;
-              <a className="name" href="http://jordanchu.xyz/">Jordan Chu</a> | {new Date().getFullYear()}{" "}
+              <a className="name" href="https://jordanchu.com/">Jordan Chu</a> | {new Date().getFullYear()}{" "}
             </p>
           </div>
         </div>
